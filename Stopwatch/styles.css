@@ -60,7 +60,11 @@ button {
     color: white;
 }
 
-
+#stopBtn:hover{
+    background-color:#DA216A;
+    font-weight: bold;
+    color: white;
+}
 
 #resetBtn:hover{
     background-color:gray;
