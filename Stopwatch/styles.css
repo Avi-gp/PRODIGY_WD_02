@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.stopwatch {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to right top, #de72af, #d273bf, #c176ce, #ab7bdc, #8d81e8, #a67fe6, #bd7ee2, #d17cdc, #ff7ab8, #ff8a91, #ffa673, #fcc568);
+    border-radius: 50%;
+    box-shadow: #fcc568;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-display {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.timer {
+    font-weight: bold;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row; /* Change to row */
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center; /* Align buttons horizontally */
+    justify-content: center; /* Center buttons horizontally */
+    background-color: transparent; /* Set background to transparent */
+}
+
+button {
+    background-color: transparent; /* Make buttons transparent */
+    color: white;
+    border: 2px solid beige; /* Add a border */
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Add hover effect */
+}
+
+#startBtn:hover{
+    background-color:green;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+#resetBtn:hover{
+    background-color:gray;
+    font-weight: bold;
+    color: white;
+}
+
+#lapBtn:hover{
+    background-color:#F4A750;
+    font-weight: bold;
+    color: white;
+}
+
+.lap-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.lap-item {
+    margin: 5px 0;
+}
+
+h1{
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    text-shadow: #fcc568;
+    font-weight: bold;
+    position:absolute;
+    top: 50px;
+    left: 30px;
+}
+
+footer{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    align-items: end;  
+    position: absolute;
+    bottom: 35px;
+    right: 30px;
+}
+
+   
